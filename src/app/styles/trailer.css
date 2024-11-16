@@ -1,0 +1,50 @@
+#trailer {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img//trailer-background.jpeg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+#content {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#youtube-trailer {
+  width: 40%;
+  height: 40%;
+  border: none;
+}
+
+#coming-back {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#countdown {
+  display: flex;
+  justify-content: space-around;
+  width: 25vw;
+}
+
+#coming-back-text {
+  letter-spacing: 0.7rem;
+}
+
+#days,
+#hours,
+#minutes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

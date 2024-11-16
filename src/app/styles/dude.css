@@ -1,0 +1,31 @@
+#dude {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding-bottom: 10vh;
+  background-color: black;
+  color: white;
+}
+
+#taki-img {
+  width: 100vh;
+}
+
+#descTaki {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#descTaki p {
+  margin-left: 15vh;
+  margin-right: 15vh;
+  text-align: justify;
+  color: #999999;
+}
+
+#nomTaki {
+  font-size: 3rem;
+  margin-bottom: 0;
+}

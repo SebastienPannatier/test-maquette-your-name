@@ -1,0 +1,61 @@
+#hero {
+  background-image: url("../img/hero-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  contain: paint;
+}
+
+#titre {
+  width: 50vw;
+  position: relative;
+  top: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -3rem;
+}
+
+#nomJap,
+#nomJapBack {
+  padding: 0;
+  font-size: 10rem;
+  text-align: center;
+}
+
+#nomJapBack {
+  color: transparent;
+  transform: translateY(-155%);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+#nomAng {
+  position: relative;
+  top: -32rem;
+  letter-spacing: 2.5rem;
+}
+
+#img-pers {
+  position: relative;
+  bottom: 60vh;
+  width: 80%;
+}
+
+#ticket-fixed {
+  position: absolute;
+  bottom: 0;
+  width: 10%;
+  height: 10%;
+  right: 7vw;
+}
+
+#ticket-fixed:hover {
+  cursor: pointer;
+}

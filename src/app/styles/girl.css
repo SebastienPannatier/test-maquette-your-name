@@ -1,0 +1,31 @@
+#girl {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding-bottom: 10vh;
+  background-color: black;
+  color: white;
+}
+
+#mitsua-img {
+  width: 100vh;
+}
+
+#descMitsua {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#descMitsua p {
+  margin-left: 15vh;
+  margin-right: 15vh;
+  text-align: justify;
+  color: #999999;
+}
+
+#nomMitsua {
+  font-size: 3rem;
+  margin-bottom: 0;
+}

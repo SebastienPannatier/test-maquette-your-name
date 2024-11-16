@@ -1,0 +1,47 @@
+#informations {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+#information-title {
+  margin: 0;
+  position: relative;
+  font-size: 4rem;
+  top: 15vh;
+  left: 5vw;
+}
+
+#info-detail {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+#info-detail h1 {
+  font-size: 3rem;
+}
+
+#info-detail a {
+  margin-top: 2vh;
+  color: #ececec;
+}
+
+#info-detail p {
+  color: #ececec;
+  margin-top: 5vh;
+  text-align: justify;
+}
+
+#details {
+  display: flex;
+  flex-direction: column;
+}
+
+#synopsis {
+  width: 40vw;
+}
